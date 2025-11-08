@@ -5,6 +5,7 @@
         Random lose = new Random();
         int liczba = lose.Next(1, 11);
         Console.WriteLine("Witaj użytkowniku!! Wylosuj liczbę z przedziału <1, 10>");
+        //Console.WriteLine(liczba);
         int traf = int.Parse(Console.ReadLine());
         if (traf == liczba)
         {
